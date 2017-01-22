@@ -16,6 +16,10 @@ That's right, it's completely empty. This is to let Heroku know that it is handl
 
 Create another file and name it "Procfile". NO EXTENSIONS. JUST "Procfile". 
 
+It's contents are as follows:
+
+web: vendor/bin/heroku-php-apache2
+
 # 3) Add an index.php file
 
 This file will be automatically run when Heroku runs your PHP app. 
