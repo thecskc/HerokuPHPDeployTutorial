@@ -28,5 +28,7 @@ This file will be automatically run when Heroku runs your PHP app.
 
 You can now open Heroku, connect your Heroku app to your respective GitHub repository and deploy the app. 
 
+# NOTE: If you need to add any dependencies, do so in the composer.json file. 
+
 # THE APP IS NOW LIVE!
 
